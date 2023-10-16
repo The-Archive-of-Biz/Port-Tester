@@ -28,5 +28,5 @@ with open('successful_requests.txt', 'w') as f:
             # If the request fails, log the failure
             logging.error(f'Connection to port {port} failed')
             print(f'unsuccessful connection to port {port}')
-        # Add a delay of 0.1 seconds between each port scan
+        # Add a delay of 1 seconds between each port scan
         time.sleep(1)
