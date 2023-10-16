@@ -12,13 +12,13 @@ This Python script is a simple port scanner that attempts to make a connection t
 
 1. Make sure you have Python installed on your system.
 2. Install the `requests` library if it is not already installed. You can do this using pip:
-   ```bash
+    ```bash
    pip install requests```
 3. Clone the repository to your local machine:
 4. Modify the target and port_range variables to specify the target server and the range of ports you want to scan. By default, the script is set to scan all 65,535 ports.
 ```python
-    target = 'http://portquiz.net/'  # Change this to your target server
-    port_range = range(1, 65536)    # Specify the port range to scan
+target = 'http://portquiz.net/'  # Change this to your target server
+port_range = range(1, 65536)    # Specify the port range to scan
 ```
 5. Run the script using the following command:
 ```bash
